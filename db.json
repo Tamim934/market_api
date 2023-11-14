@@ -1,0 +1,408 @@
+{
+  "users": [
+    {
+      "email": "john@gmail.com",
+      "password": "$2a$10$797/BmMOrVek32mB1t3bOO2A9y01H1mj7vGT8pv7xpcOuL6ccTD92",
+      "id": 1,
+      "role_id": 1,
+      "name": "John",
+      "img": "uploads/1685972689844.jpg"
+    },
+    {
+      "email": "jane@gmail.com",
+      "password": "$2a$10$X3PL4uCAWt77O4cAxkeylukfy.9xlqWd15HfSRCgqGNJvHJBLoabq",
+      "id": 2,
+      "role_id": 2,
+      "name": "Jane",
+      "img": "uploads/1698918219356.jpg"
+    },
+    {
+      "email": "John@gmail.com",
+      "password": "$2a$10$j7hUWfRtrOwMLAyFgoOFk.8GBMB4xGmAId4LGycXzzdcWdu9rGHZ2",
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "name": "iphone 13",
+      "categoryId": 1,
+      "subCategoryId": 1,
+      "brandId": 1,
+      "price": "10000",
+      "discount": "",
+      "hasDiscount": false,
+      "isNew": false,
+      "description": "",
+      "properties": [],
+      "media": [
+        {
+          "type": "image/jpeg",
+          "src": "uploads/1698918270121.jpg"
+        },
+        {
+          "type": "image/png",
+          "src": "uploads/1698918270122.png"
+        },
+        {
+          "type": "image/jpeg",
+          "src": "uploads/1698918270122.jpg"
+        },
+        {
+          "type": "image/jpeg",
+          "src": "uploads/1698918270122.jpg"
+        }
+      ],
+      "id": 8,
+      "quntity": 2
+    },
+    {
+      "name": "nokia",
+      "categoryId": 1,
+      "subCategoryId": 1,
+      "brandId": 2,
+      "price": "500",
+      "discount": "",
+      "hasDiscount": false,
+      "isNew": false,
+      "description": "<p>strong phone</p>",
+      "properties": [],
+      "media": [
+        {
+          "type": "image/jpeg",
+          "src": "uploads/1698918443049.jpg"
+        },
+        {
+          "type": "image/jpeg",
+          "src": "uploads/1698918443050.jpg"
+        },
+        {
+          "type": "image/jpeg",
+          "src": "uploads/1698918443051.jpg"
+        }
+      ],
+      "id": 9,
+      "quntity": 2
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "IPhones11",
+      "img": "uploads/1698918219356.jpg",
+      "price": "200",
+      "description": "Brand New Out of box Iphone 11 with improved features ",
+      "name1": "Samsunge Galaxy2",
+      "img1": "uploads/1699021794651.jpg",
+      "price1": "250",
+      "description1": "Experience the best of Samsung with Galaxy2",
+      "name2": "Phone15",
+      "img2": "uploads/1698918219356.png",
+      "price2": "300",
+      "description2": "Phone15 - A new era of smartphones",
+      "name3": "Phone13 Plus",
+      "img3": "uploads/1698918219359.jpg",
+      "price3": "350",
+      "description3": "Phone13 Plus - A blend of style and technology",
+      "name4": "Phone12 Pro",
+      "img4": "uploads/1698918270121.jpg",
+      "price4": "400",
+      "description4": "Phone12 Pro - Elevate your smartphone experience",
+      "name5": "Iphone 12 Pro",
+      "img5": "uploads/1698918270122.jpg",
+      "price5": "450",
+      "description5": "Iphone 12 Pro - Welcome to the next level",
+      "name6": "Nokia",
+      "img6": "uploads/1698918443049.jpg",
+      "price6": "500",
+      "description6": "Nokia - Reliability like never before",
+      "name7": "Galaxy g2",
+      "img7": "uploads/1699020278233.jpg",
+      "price7": "550",
+      "description7": "Galaxy g2 - Redefining the galaxy experience",
+      "name8": "Hawaye",
+      "img8": "uploads/1699022125837.jpg",
+      "price8": "600",
+      "description8": "Hawaye - Embrace the future of smartphones"
+    },
+    {
+      "id": 2,
+      "name": "Apple MacBook Pro",
+      "img": "uploads/apple.jpg",
+      "price": "2000",
+      "description": "Experience power and performance with the Apple MacBook Pro.",
+      "name1": "Dell XPS 15",
+      "img1": "uploads/del.jpg",
+      "price1": "1800",
+      "description1": "Dell XPS 15 offers an immersive display with robust performance.",
+      "name2": "HP Spectre x360",
+      "img2": "uploads/hp.jpg",
+      "price2": "1500",
+      "description2": "HP Spectre x360 - A perfect blend of form and functionality.",
+      "name3": "Lenovo ThinkPad X1 Carbon",
+      "img3": "uploads/lenovo.jpg",
+      "price3": "1700",
+      "description3": "Lenovo ThinkPad X1 Carbon - Designed for those who demand the best.",
+      "name4": "Microsoft Surface Laptop 4",
+      "img4": "uploads/micro.jpg",
+      "price4": "1300",
+      "description4": "Microsoft Surface Laptop 4 - Power through your day with style.",
+      "name5": "Asus ROG Zephyrus G14",
+      "img5": "uploads/aus.jpg",
+      "price5": "2500",
+      "description5": "Asus ROG Zephyrus G14 - A gaming powerhouse.",
+      "name6": "Acer Swift 3",
+      "img6": "uploads/acer.jpg",
+      "price6": "800",
+      "description6": "Acer Swift 3 - A budget-friendly laptop for everyday use.",
+      "name7": "Razer Blade 15",
+      "img7": "uploads/razer.webp",
+      "price7": "2200",
+      "description7": "Razer Blade 15 - For the ultimate gaming experience.",
+      "name8": "Alienware m15 R4",
+      "img8": "uploads/m15.jpg",
+      "price8": "2600",
+      "description8": "Alienware m15 R4 - Engineered for an unending performance."
+    },
+    {
+      "id": 3,
+      "name": "Apple Watch Series 7",
+      "img": "uploads/watch 7.jpg",
+      "price": "400",
+      "description": "Experience the future of health with Apple Watch Series 7.",
+      "name1": "Samsung Galaxy Watch 4",
+      "img1": "uploads/samsung galaxy.jpg",
+      "price1": "300",
+      "description1": "Stay connected with the Samsung Galaxy Watch 4.",
+      "name2": "Fitbit Versa 3",
+      "img2": "uploads/fitbit.jpg",
+      "price2": "200",
+      "description2": "Track your fitness with the Fitbit Versa 3.",
+      "name3": "Garmin Forerunner 945",
+      "img3": "uploads/garmin.jpg",
+      "price3": "600",
+      "description3": "For the athletes, the Garmin Forerunner 945.",
+      "name4": "Fossil Gen 5",
+      "img4": "uploads/fossil gen 5.png",
+      "price4": "250",
+      "description4": "Classic design meets modern tech with Fossil Gen 5.",
+      "name5": "Amazfit Bip U Pro",
+      "img5": "uploads/amzfit.jpg",
+      "price5": "70",
+      "description5": "Affordable and feature-packed - the Amazfit Bip U Pro.",
+      "name6": "Suunto 7",
+      "img6": "uploads/suunto.jpg",
+      "price6": "500",
+      "description6": "For the adventurers, the Suunto 7.",
+      "name7": "TicWatch Pro 3",
+      "img7": "uploads/ticwatch.jpg",
+      "price7": "300",
+      "description7": "Experience speed with the TicWatch Pro 3.",
+      "name8": "Huawei Watch GT 2",
+      "img8": "uploads/huawei watch.jpg",
+      "price8": "200",
+      "description8": "Long battery life and sleek design with Huawei Watch GT 2."
+    },
+    {
+      "id": 4,
+      "name": "Canon EOS R5",
+      "img": "uploads/",
+      "price": "3900",
+      "description": "Capture stunning photos and videos with the Canon EOS R5.",
+      "name1": "Nikon D850",
+      "img1": "uploads/",
+      "price1": "3000",
+      "description1": "Experience superior image quality with the Nikon D850.",
+      "name2": "Sony A7 III",
+      "img2": "uploads/",
+      "price2": "2000",
+      "description2": "Sony A7 III - A versatile choice for photo and video enthusiasts.",
+      "name3": "Fujifilm X-T4",
+      "img3": "uploads/",
+      "price3": "1700",
+      "description3": "Fujifilm X-T4 - A perfect blend of image quality and performance.",
+      "name4": "Panasonic Lumix S1",
+      "img4": "uploads/",
+      "price4": "2500",
+      "description4": "Panasonic Lumix S1 - Capture your creativity in stunning detail.",
+      "name5": "Olympus OM-D E-M1 Mark III",
+      "img5": "uploads/",
+      "price5": "1600",
+      "description5": "Olympus OM-D E-M1 Mark III - Compact size, pro features.",
+      "name6": "Leica Q2",
+      "img6": "uploads/",
+      "price6": "5000",
+      "description6": "Leica Q2 - For those who demand the best.",
+      "name7": "Nikon Z6 II",
+      "img7": "uploads/",
+      "price7": "2000",
+      "description7": "Nikon Z6 II - A versatile full-frame mirrorless camera.",
+      "name8": "Canon EOS M6 Mark II",
+      "img8": "uploads/",
+      "price8": "900",
+      "description8": "Canon EOS M6 Mark II - Compact size without compromise."
+    },
+    {
+      "id": 5,
+      "name": "Bose QuietComfort 35 II",
+      "img": "uploads/",
+      "price": "300",
+      "description": "Experience world-class noise cancellation with Bose QuietComfort 35 II.",
+      "name1": "Sony WH-1000XM4",
+      "img1": "uploads/",
+      "price1": "350",
+      "description1": "Sony WH-1000XM4 - Unrivalled noise cancellation, uncompromised sound.",
+      "name2": "Sennheiser HD 660 S",
+      "img2": "uploads/",
+      "price2": "500",
+      "description2": "Sennheiser HD 660 S - Open, dynamic and natural.",
+      "name3": "Jabra Elite 85h",
+      "img3": "uploads/",
+      "price3": "250",
+      "description3": "Jabra Elite 85h - Engineered for the best wireless calls and music experience.",
+      "name4": "Beats Studio3 Wireless",
+      "img4": "uploads/",
+      "price4": "350",
+      "description4": "Beats Studio3 Wireless - Hear the music. Not the noise.",
+      "name5": "Bowers & Wilkins PX7",
+      "img5": "uploads/",
+      "price5": "400",
+      "description5": "Bowers & Wilkins PX7 - Experience world-class sound with the latest adaptive noise cancellation technology.",
+      "name6": "Bang & Olufsen Beoplay H9",
+      "img6": "uploads/",
+      "price6": "500",
+      "description6": "Bang & Olufsen Beoplay H9 - Superior sound, timeless design.",
+      "name7": "Bose Noise Cancelling Headphones 700",
+      "img7": "uploads/",
+      "price7": "380",
+      "description7": "Bose Noise Cancelling Headphones 700 - Augmented headphones. Now a reality."
+    },
+    {
+      "id": 6,
+      "name": "PlayStation 5",
+      "img": "uploads/",
+      "price": "500",
+      "description": "Experience lightning-fast loading with an ultra-high-speed SSD, deeper immersion with support for haptic feedback, adaptive triggers and 3D Audio, and an all-new generation of incredible PlayStation games.",
+      "name1": "Xbox Series X",
+      "img1": "uploads/",
+      "price1": "500",
+      "description1": "The fastest, most powerful Xbox ever. Play thousands of titles from four generations of consoles—all games look and play best on Xbox Series X.",
+      "name2": "Nintendo Switch",
+      "img2": "uploads/",
+      "price2": "300",
+      "description2": "Get the gaming system that lets you play the games you want, wherever you are, however you like. Includes the Nintendo Switch console and Nintendo Switch dock in black, with contrasting left and right Joy‑Con controllers—one red, one blue.",
+      "name3": "Alienware Area 51M",
+      "img3": "uploads/",
+      "price3": "2500",
+      "description3": "Alienware Area 51M - The ultimate gaming laptop that is both powerful and upgradeable.",
+      "name4": "Razer Blade 15",
+      "img4": "uploads/",
+      "price4": "2000",
+      "description4": "Razer Blade 15 - Ultra fast. Ultra small. Ultra powerful.",
+      "name5": "Asus ROG Zephyrus G14",
+      "img5": "uploads/",
+      "price5": "1500",
+      "description5": "Asus ROG Zephyrus G14 - The most powerful 14-inch gaming laptop in the market.",
+      "name6": "Corsair One i160",
+      "img6": "uploads/",
+      "price6": "3000",
+      "description6": "Corsair One i160 - High performance. Compact form.",
+      "name7": "Oculus Quest 2",
+      "img7": "uploads/",
+      "price7": "300",
+      "description7": "Oculus Quest 2 - All-in-one VR. No PC. No wires. No limits."
+    },
+    {
+      "name": "youtube",
+      "img": "uploads\\1699623610766.jpg",
+      "id": 7
+    }
+  ],
+  "subCategories": [
+    {
+      "name": "Smartphones",
+      "categoryId": 1,
+      "brands": [
+        1
+      ],
+      "img": "uploads/1698918443049.jpg",
+      "id": 1
+    },
+    {
+      "name": "кнопочные",
+      "categoryId": 1,
+      "brands": [
+        2
+      ],
+      "img": "uploads/1698918443049.jpg",
+      "id": 2
+    },
+    {
+      "name": "hi bro",
+      "img": "uploads\\1699541577863.jpg",
+      "id": 3
+    }
+  ],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Apple",
+      "img": "uploads/1698918219356.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Nokia",
+      "img": "uploads/1698918443049.jpg"
+    },
+    {
+      "name": "Playstions",
+      "img": "uploads\\1699622109627.jpg",
+      "id": 3
+    },
+    {
+      "name": "Airplane",
+      "img": "uploads\\1699622143973.bmp",
+      "id": 4
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "name": "Apple MacBook Pro",
+      "img": "uploads/apple.jpg",
+      "price": "$2000",
+      "description": "Experience power and performance with the Apple MacBook Pro.",
+      "complete": false
+    },
+    {
+      "id": 2,
+      "name": "Apple Watch Series 7",
+      "img": "uploads/watch 7.jpg",
+      "price": "$233",
+      "description": "Experience the future of health with Apple Watch Series 7.",
+      "complete": false
+    },
+    {
+      "name": "Playstions 5",
+      "img": "uploads\\1699622109627.jpg",
+      "price": "$590",
+      "description": "Experience the future of health with Apple Watch Series 7.",
+      "complete": false,
+      "id": 3
+    },
+    {
+      "name": "Air G2",
+      "img": "uploads\\1699622143973.bmp",
+      "price": "$1079",
+      "description": "Experience the future of health with Apple Watch Series 7.",
+      "id": 4,
+      "complete": false
+    },
+    {
+      "name": "Samsung Galaxy Watch 4",
+      "img": "uploads/samsung galaxy.jpg",
+      "price": "$300",
+      "description": "Stay connected with the Samsung Galaxy Watch 4.",
+      "id": 5
+    }
+  ]
+}

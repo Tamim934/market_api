@@ -1,1 +1,4 @@
-"# market_api" 
+# npm i
+
+# Create a uploads folder
+#npm start
